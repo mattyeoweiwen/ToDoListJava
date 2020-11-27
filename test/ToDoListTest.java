@@ -9,7 +9,8 @@ public class ToDoListTest {
 	private Task task2;
 	private Task task3;
 	private ToDoList todoList;
-	
+  
+  // constructor
 	public ToDoListTest() {
 		super();
 	}
@@ -26,7 +27,7 @@ public class ToDoListTest {
 		task1 = null;
 		task2 = null;
 		task3 = null;
-		
+		g
 		todoList = null;
 	}
 
