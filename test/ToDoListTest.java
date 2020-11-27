@@ -1,69 +1,68 @@
-import org.junit.*;
-import static org.junit.Assert.*;
-
-
 import java.util.Collection;
 
-public class ToDoListTest {
-	private Task task1;
-	private Task task2;
-	private Task task3;
-	private ToDoList todoList;
-  
-  // constructor
+import org.junit.*;
+import org.junit.Test;
+import junit.framework.*;
+
+
+public class ToDoListTest extends TestCase{
+	// Define Test Fixtures
+	private ToDoList todo;
+	
 	public ToDoListTest() {
 		super();
 	}
 	@Before
 	 public void setUp() throws Exception{
-		task1 = new Task ("desc 1");
-		task2 = new Task ("desc 2");
-		task3 = new Task ("desc 3");
-		
-		todoList = new ToDoList();
+		//Initialise Test Fixtures
+		 todo = new ToDoList();
 	}
 	@After
 	 public void tearDown() throws Exception{
-		task1 = null;
-		task2 = null;
-		task3 = null;
-		
-		todoList = null;
+		// Uninitialise test Fixtures
 	}
 
 	@Test
 	public void testAddTask() {
-		assertNotNull(todoList);
-		todoList.addTask(task1);
-		assertEquals(1, todoList.getAllTasks().size());
-		assertEquals(task1, todoList.getTask(task1.getDescription()));
+		//ToDoList todo = new ToDoList();
+		todo.addTask(new Task("Test task1"));
+		
+		Collection<Task> col = todo.getAllTasks();
+		assertTrue("Expected collectioon to contain 1 task object", col.size() == 1);		
+		
+		Task[] tasks = new Task[] {};
+		Task t = col.toArray(tasks)[0];
+		
+		assertEquals("Test task1", t.getDescription());		
 	}
+	
 	@Test
 	public void testgetStatus() {
-		assertNotNull(todoList);
-		todoList.addTask(task1);
-		assertEquals(false, todoList.getStatus(task1.getDescription()));
-		todoList.completeTask(task1.getDescription());
-		assertEquals(true, todoList.getStatus(task1.getDescription()));
+		String description = "Test task1";
+		todo.addTask(new Task(description, false));
+		assertFalse("getStatus should return false", todo.getStatus(description));
+		
+		description = "Test task2";
+		todo.addTask(new Task(description, true));
+		assertTrue("getStatus should return true", todo.getStatus(description));
 	}
 	@Test
 	public void testRemoveTask() {
-		assertNotNull(todoList);
-		todoList.addTask(task1);
-		todoList.addTask(task2);;
+		Task t = todo.removeTask("Test task1");
+		assertNull("removeTask should return null", t);
 		
-		todoList.removeTask(task1.getDescription());
-		assertNull(todoList.getTask(task1.getDescription()));	
+		Task expected = new Task("Test task1", true);
+		todo.addTask(expected);
+		t = todo.removeTask("Test task1");
+		assertSame("removeTask should return what was removed", expected, t);
 	}
 	@Test
 	public void testGetCompletedTasks() {
-		task1.setComplete(true);
-		task3.setComplete(true);
-		todoList.addTask(task1);
-		todoList.addTask(task2);
-		todoList.addTask(task3);
+		assertEquals("getCompletedTasks should return 0 completed task", todo.getCompletedTasks().size(), 0);
 		
-		Collection<Task> tasks = todoList.getCompletedTasks();
-		assertEquals(2, tasks.size());
+		todo.addTask(new Task("Test task1", true));
+		todo.addTask(new Task("Test task2", false));
+		todo.addTask(new Task("Test task3", true));
+		assertEquals("getCompletedTasks should return 2 completed tasks", todo.getCompletedTasks().size(), 2);
 	}
 }

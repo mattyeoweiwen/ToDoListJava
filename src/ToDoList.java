@@ -1,42 +1,46 @@
-import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map.Entry;
 
 public class ToDoList {
+private HashMap<String, Task> tasks = new HashMap<String, Task>();
 
-	private HashMap<String, Task> tasks = new HashMap<String, Task>();
-	
 	public void addTask (Task task) {
+		//Add code here
 		tasks.put(task.getDescription(), task);
 	}
 	public void completeTask(String description) {
-		Task task = null;
-		if ((task = tasks.get(description)) != null){
-			task.setComplete(true);
-		};
+		// Add code here
+		Task t = getTask(description);
+		if ( t != null ) {
+			t.setComplete(true);
+		}
 	}
 	public boolean getStatus(String description) {
-		Task task = null;
-		if ((task = tasks.get(description)) != null){
-			return task.isComplete();
-		};
-		return false;
+		//Add code here
+		return getTask(description).isComplete();
 	}
 	public Task getTask(String description) {
+		// Add code here
 		return tasks.get(description);
 	}
 	public Task removeTask(String description) {
+		// Add code here
 		return tasks.remove(description);
 	}
 	public Collection<Task> getAllTasks() {
 		return tasks.values();
+
 	}
 	public Collection<Task> getCompletedTasks() {
-		Collection<Task> completedTasks = new ArrayList<Task> ();
-		Collection<Task> allTasks = new ArrayList<Task> ();
-		allTasks = getAllTasks();
-		for (Task task: allTasks) 
-			if (task.isComplete() == true) completedTasks.add(task);
-		return completedTasks;
+		// Add code here
+		ArrayList<Task> taskList = new ArrayList<Task>();
+		
+		for (Entry<String, Task> es: tasks.entrySet()) {
+			if(es.getValue().isComplete())
+				taskList.add(es.getValue());
+		}
+		return taskList;
 	}
 }
