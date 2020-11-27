@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Matthews-MacBook-Pro.local" name="ToDoListTest" skipped="0" tests="4" time="0.223" timestamp="2020-11-27T08:41:46">
+<testsuite errors="0" failures="0" hostname="Matthews-MacBook-Pro.local" name="ToDoListTest" skipped="0" tests="4" time="0.284" timestamp="2020-11-27T08:46:15">
   <properties>
     <property name="ant.library.dir" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib" />
     <property name="java.specification.version" value="15" />
     <property name="ant.project.name" value="ToDoListJava" />
     <property name="sun.jnu.encoding" value="UTF-8" />
-    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_5083" value="1" />
-    <property name="java.class.path" value="/Users/matthewyeo/Desktop/ToDoListJava/bin:/Users/matthewyeo/Desktop/ToDoListJava/lib/junit.jar:/Users/matthewyeo/Desktop/ToDoListJava/lib/org.hamcrest.core_1.3.0.v20180420-1519.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant-launcher.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant-junit.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant-junit4.jar" />
+    <property name="java.class.path" value="/Users/matthewyeo/Desktop/ToDoListJava/bin:/Users/matthewyeo/Desktop/ToDoListJava/lib/org.junit_4.13.0.v20200204-1500.jar:/Users/matthewyeo/Desktop/ToDoListJava/lib/org.hamcrest.core_1.3.0.v20180420-1519.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant-launcher.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant-junit.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant-junit4.jar" />
     <property name="env.HOME" value="/Users/matthewyeo" />
     <property name="source" value="14" />
     <property name="env.COMMAND_MODE" value="unix2003" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="sun.arch.data.model" value="64" />
     <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.JAVA_MAIN_CLASS_5151" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
     <property name="java.vendor.url" value="https://java.oracle.com/" />
     <property name="os.name" value="Mac OS X" />
     <property name="java.vm.specification.version" value="15" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="user.country" value="SG" />
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/matthewyeo/Desktop/ToDoListJava/junit/TEST-ToDoListTest.xml crashfile=/Users/matthewyeo/Desktop/ToDoListJava/junitvmwatcher3426100855007588586.properties propsfile=/Users/matthewyeo/Desktop/ToDoListJava/junit17130785233138449011.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/matthewyeo/Desktop/ToDoListJava/junit/TEST-ToDoListTest.xml crashfile=/Users/matthewyeo/Desktop/ToDoListJava/junitvmwatcher18182445624264817039.properties propsfile=/Users/matthewyeo/Desktop/ToDoListJava/junit6284877279824244297.properties" />
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="jdk.debug" value="release" />
     <property name="sun.cpu.endian" value="little" />
     <property name="user.home" value="/Users/matthewyeo" />
     <property name="user.language" value="en" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="/var/folders/92/q0129bjj70ggg36ghgxvfx500000gn/T/null643218436" />
+    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="/var/folders/92/q0129bjj70ggg36ghgxvfx500000gn/T/null1742637595" />
     <property name="java.version.date" value="2020-10-20" />
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home" />
     <property name="basedir" value="/Users/matthewyeo/Desktop/ToDoListJava" />
@@ -38,7 +38,6 @@
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="ant.file.type.ToDoListJava" value="file" />
     <property name="env.ANT_HOME" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239" />
-    <property name="env.JAVA_MAIN_CLASS_5083" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
     <property name="env.XPC_SERVICE_NAME" value="application.org.eclipse.platform.ide.1491842.1493176" />
     <property name="ant.file.ToDoListJava" value="/Users/matthewyeo/Desktop/ToDoListJava/build.xml" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
@@ -56,6 +55,7 @@
     <property name="ant.project.invoked-targets" value="build" />
     <property name="env.__CFBundleIdentifier" value="org.eclipse.platform.ide" />
     <property name="file.encoding" value="UTF-8" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_5151" value="1" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="env.SHELL" value="/bin/zsh" />
     <property name="ant.core.lib" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant.jar" />
@@ -83,7 +83,7 @@
     <property name="env.USER" value="matthewyeo" />
     <property name="ant.project.default-target" value="build" />
   </properties>
-  <testcase classname="ToDoListTest" name="testAddTask" time="0.001" />
+  <testcase classname="ToDoListTest" name="testAddTask" time="0.003" />
   <testcase classname="ToDoListTest" name="testGetCompletedTasks" time="0.0" />
   <testcase classname="ToDoListTest" name="testgetStatus" time="0.0" />
   <testcase classname="ToDoListTest" name="testRemoveTask" time="0.0" />
