@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Matthews-MacBook-Pro.local" id="0" name="ToDoListTest" package="" skipped="0" tests="4" time="0.29" timestamp="2020-11-27T08:31:35">
+  <testsuite errors="0" failures="0" hostname="Matthews-MacBook-Pro.local" id="0" name="ToDoListTest" package="" skipped="0" tests="4" time="0.287" timestamp="2020-11-27T08:35:23">
       <properties>
           <property name="ant.library.dir" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib" />
 
@@ -14,7 +14,7 @@
 
           <property name="env.HOME" value="/Users/matthewyeo" />
 
-          <property name="source" value="15" />
+          <property name="source" value="8" />
 
           <property name="env.COMMAND_MODE" value="unix2003" />
 
@@ -36,7 +36,7 @@
 
           <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/matthewyeo/Desktop/ToDoListJava/junit/TEST-ToDoListTest.xml crashfile=/Users/matthewyeo/Desktop/ToDoListJava/junitvmwatcher9522461303482203590.properties propsfile=/Users/matthewyeo/Desktop/ToDoListJava/junit5479883411465250950.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/matthewyeo/Desktop/ToDoListJava/junit/TEST-ToDoListTest.xml crashfile=/Users/matthewyeo/Desktop/ToDoListJava/junitvmwatcher12784690596082347613.properties propsfile=/Users/matthewyeo/Desktop/ToDoListJava/junit1327251512358371485.properties" />
 
           <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
 
@@ -70,11 +70,11 @@
 
           <property name="ant.file.type.ToDoListJava" value="file" />
 
-          <property name="env.JAVA_STARTED_ON_FIRST_THREAD_4974" value="1" />
-
           <property name="env.ANT_HOME" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239" />
 
           <property name="env.XPC_SERVICE_NAME" value="application.org.eclipse.platform.ide.1491842.1493176" />
+
+          <property name="env.JAVA_STARTED_ON_FIRST_THREAD_5023" value="1" />
 
           <property name="ant.file.ToDoListJava" value="/Users/matthewyeo/Desktop/ToDoListJava/build.xml" />
 
@@ -128,11 +128,9 @@
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
-          <property name="env.JAVA_MAIN_CLASS_4974" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
-
           <property name="ant.home" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239" />
 
-          <property name="target" value="15" />
+          <property name="target" value="8" />
 
           <property name="junit.output.dir" value="junit" />
 
@@ -150,6 +148,8 @@
 
           <property name="java.vm.version" value="15.0.1+9-18" />
 
+          <property name="env.JAVA_MAIN_CLASS_5023" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+
           <property name="sun.io.unicode.encoding" value="UnicodeBig" />
 
           <property name="java.class.version" value="59.0" />
@@ -164,13 +164,13 @@
 
       </properties>
 
-      <testcase classname="ToDoListTest" name="testAddTask" time="0.002" />
+      <testcase classname="ToDoListTest" name="testAddTask" time="0.001" />
 
       <testcase classname="ToDoListTest" name="testGetCompletedTasks" time="0.0" />
 
       <testcase classname="ToDoListTest" name="testgetStatus" time="0.0" />
 
-      <testcase classname="ToDoListTest" name="testRemoveTask" time="0.001" />
+      <testcase classname="ToDoListTest" name="testRemoveTask" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
