@@ -27,7 +27,7 @@ public class ToDoListTest {
 		task1 = null;
 		task2 = null;
 		task3 = null;
-		g
+		
 		todoList = null;
 	}
 
