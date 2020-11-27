@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Matthews-MacBook-Pro.local" name="ToDoListTest" skipped="0" tests="4" time="0.069" timestamp="2020-11-27T07:02:35">
+<testsuite errors="0" failures="0" hostname="Matthews-MacBook-Pro.local" name="ToDoListTest" skipped="0" tests="4" time="0.29" timestamp="2020-11-27T08:31:35">
   <properties>
     <property name="ant.library.dir" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib" />
     <property name="java.specification.version" value="15" />
@@ -7,22 +7,20 @@
     <property name="sun.jnu.encoding" value="UTF-8" />
     <property name="java.class.path" value="/Users/matthewyeo/Desktop/ToDoListJava/bin:/Users/matthewyeo/Desktop/ToDoListJava/lib/junit.jar:/Users/matthewyeo/Desktop/ToDoListJava/lib/org.hamcrest.core_1.3.0.v20180420-1519.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant-launcher.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant-junit.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239/lib/ant-junit4.jar" />
     <property name="env.HOME" value="/Users/matthewyeo" />
-    <property name="source" value="11" />
+    <property name="source" value="15" />
     <property name="env.COMMAND_MODE" value="unix2003" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="sun.arch.data.model" value="64" />
     <property name="debuglevel" value="source,lines,vars" />
     <property name="java.vendor.url" value="https://java.oracle.com/" />
-    <property name="env.JAVA_MAIN_CLASS_4143" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
     <property name="java.vm.specification.version" value="15" />
     <property name="os.name" value="Mac OS X" />
     <property name="user.country" value="SG" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/matthewyeo/Desktop/ToDoListJava/junit/TEST-ToDoListTest.xml crashfile=/Users/matthewyeo/Desktop/ToDoListJava/junitvmwatcher2608465910106325711.properties propsfile=/Users/matthewyeo/Desktop/ToDoListJava/junit17974482483984245656.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/matthewyeo/Desktop/ToDoListJava/junit/TEST-ToDoListTest.xml crashfile=/Users/matthewyeo/Desktop/ToDoListJava/junitvmwatcher9522461303482203590.properties propsfile=/Users/matthewyeo/Desktop/ToDoListJava/junit5479883411465250950.properties" />
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
     <property name="jdk.debug" value="release" />
-    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_4143" value="1" />
     <property name="sun.cpu.endian" value="little" />
     <property name="user.home" value="/Users/matthewyeo" />
     <property name="user.language" value="en" />
@@ -37,6 +35,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="ant.file.type.ToDoListJava" value="file" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_4974" value="1" />
     <property name="env.ANT_HOME" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239" />
     <property name="env.XPC_SERVICE_NAME" value="application.org.eclipse.platform.ide.1491842.1493176" />
     <property name="ant.file.ToDoListJava" value="/Users/matthewyeo/Desktop/ToDoListJava/build.xml" />
@@ -65,8 +64,9 @@
     <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.x2KJUWhHSJ/Listeners" />
     <property name="os.arch" value="x86_64" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.JAVA_MAIN_CLASS_4974" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
     <property name="ant.home" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.10.8.v20200515-1239" />
-    <property name="target" value="11" />
+    <property name="target" value="15" />
     <property name="junit.output.dir" value="junit" />
     <property name="env.APP_ICON_3941" value="../Resources/Eclipse.icns" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.8 compiled on May 10 2020" />
@@ -82,10 +82,10 @@
     <property name="env.JAVA_STARTED_ON_FIRST_THREAD_3941" value="1" />
     <property name="ant.project.default-target" value="build" />
   </properties>
-  <testcase classname="ToDoListTest" name="testAddTask" time="0.001" />
+  <testcase classname="ToDoListTest" name="testAddTask" time="0.002" />
   <testcase classname="ToDoListTest" name="testGetCompletedTasks" time="0.0" />
   <testcase classname="ToDoListTest" name="testgetStatus" time="0.0" />
-  <testcase classname="ToDoListTest" name="testRemoveTask" time="0.0" />
+  <testcase classname="ToDoListTest" name="testRemoveTask" time="0.001" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
